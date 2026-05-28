@@ -21,11 +21,11 @@ dependencies {
 }
 
 android {
-    namespace = "com.scaffold.kpm"
+    namespace = "com.scaffold.kmp"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.scaffold.kpm"
+        applicationId = "com.scaffold.kmp"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

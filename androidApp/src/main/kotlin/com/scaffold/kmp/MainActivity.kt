@@ -1,4 +1,4 @@
-package com.scaffold.kpm
+package com.scaffold.kmp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

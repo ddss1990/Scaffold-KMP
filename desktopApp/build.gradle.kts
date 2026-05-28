@@ -17,11 +17,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "com.scaffold.kpm.MainKt"
+        mainClass = "com.scaffold.kmp.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.scaffold.kpm"
+            packageName = "com.scaffold.kmp"
             packageVersion = "1.0.0"
         }
     }

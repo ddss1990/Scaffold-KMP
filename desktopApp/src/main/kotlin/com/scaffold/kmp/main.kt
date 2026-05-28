@@ -1,4 +1,4 @@
-package com.scaffold.kpm
+package com.scaffold.kmp
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application

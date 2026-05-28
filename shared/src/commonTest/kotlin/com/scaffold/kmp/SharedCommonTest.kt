@@ -1,4 +1,4 @@
-package com.scaffold.kpm
+package com.scaffold.kmp
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

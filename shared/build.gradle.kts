@@ -21,7 +21,7 @@ kotlin {
     }
 
     androidLibrary {
-        namespace = "com.scaffold.kpm.shared"
+        namespace = "com.scaffold.kmp.shared"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 

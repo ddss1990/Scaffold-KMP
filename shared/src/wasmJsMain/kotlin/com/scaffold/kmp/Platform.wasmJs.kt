@@ -1,4 +1,4 @@
-package com.scaffold.kpm
+package com.scaffold.kmp
 
 class WasmPlatform : Platform {
     override val name: String = "Web with Kotlin/Wasm"

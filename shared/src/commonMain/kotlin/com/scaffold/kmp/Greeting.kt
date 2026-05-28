@@ -1,4 +1,4 @@
-package com.scaffold.kpm
+package com.scaffold.kmp
 
 class Greeting {
     private val platform = getPlatform()
