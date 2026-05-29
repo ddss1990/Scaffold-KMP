@@ -1,0 +1,3 @@
+[submodule "compose-ui-components"]
+	path = compose-ui-components
+	url = git@github.com:ddss1990/compose-ui-components.git

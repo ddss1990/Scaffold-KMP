@@ -6,14 +6,22 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.composelib.ui.wrapped.ScaffoldWrappedRootScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
+        AppLogger.i(
+            tag = "AndroidApp",
+            event = "AppStart",
+            message = "MainActivity created and Compose content is starting.",
+        )
 
         setContent {
-            App()
+            ScaffoldWrappedRootScreen(
+                greetingText = Greeting().greet(),
+            )
         }
     }
 }
@@ -21,5 +29,7 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun AppAndroidPreview() {
-    App()
+    ScaffoldWrappedRootScreen(
+        greetingText = Greeting().greet(),
+    )
 }
