@@ -152,3 +152,17 @@ python3 -m http.server 8080
 - 检查设备是否允许安装未知来源。
 - 如用于正式分发，请补充签名与渠道策略（本指南范围外）。
 
+---
+
+## 7. GitHub 仓库内在线预览（GitHub Pages）
+
+本项目支持通过 GitHub Pages 在线预览 Web 产物（不是下载 artifact）。
+
+触发方式：
+- 推送 `v*` 标签
+- 手动运行 `Deploy Web Preview (Pages)` workflow
+
+预览地址格式：
+- `https://<owner>.github.io/<repo>/`
+
+Release 页面会包含该 Preview 链接入口。
